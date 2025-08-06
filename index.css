@@ -1,9 +1,14 @@
 * {
+  text-decoration: none;
   margin: 0;
+  font-family: "Poiret One", sans-serif;
+  color: lightgray;
+  font-size: 1.2rem;
 }
-.nav {
+.nav a {
   font-family: "Spirax", sans-serif;
   font-size: 3rem;
+  color: darkred;
 }
 section {
   background-repeat: no-repeat;
@@ -22,6 +27,7 @@ section {
   background-image: url("./assets/hot.jpg");
   justify-content: center;
 }
+
 .hot-section .hot-section-container {
   display: flex;
   gap: 1rem;
@@ -29,6 +35,7 @@ section {
   justify-content: center;
   width: 70%;
 }
+
 .juicy-section {
   background-image: url("./assets/juicy.jpg");
 }
@@ -38,14 +45,14 @@ section {
 
 .text-box-red {
   color: white;
-  background-color: darkred;
+  background-color: rgb(139, 0, 0, 0.75);
   width: 60%;
   height: auto;
   padding: 1rem;
   text-align: center;
 }
 .text-box-red.text-box-red2 {
-  justify-self: end;
+  align-self: flex-end;
 }
 
 .text-box-black {

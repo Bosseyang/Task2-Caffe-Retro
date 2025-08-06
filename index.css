@@ -5,10 +5,20 @@
   color: lightgray;
   font-size: 1.2rem;
 }
+.nav {
+  background-color: rgb(33, 21, 26, 0.75);
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
 .nav a {
   font-family: "Spirax", sans-serif;
   font-size: 3rem;
-  color: darkred;
+  color: lightgray;
 }
 section {
   background-repeat: no-repeat;
@@ -22,13 +32,13 @@ section {
   text-align: center;
 }
 
-.hot-section {
+.section {
   display: flex;
   background-image: url("./assets/hot.jpg");
   justify-content: center;
 }
 
-.hot-section .hot-section-container {
+.section .section-container {
   display: flex;
   gap: 1rem;
   flex-direction: column;
@@ -49,7 +59,6 @@ section {
   width: 60%;
   height: auto;
   padding: 1rem;
-  text-align: center;
 }
 .text-box-red.text-box-red2 {
   align-self: flex-end;
@@ -57,8 +66,16 @@ section {
 
 .text-box-black {
   color: white;
-  background-color: black 0.5;
-  width: 60%;
+  background-color: rgb(0, 0, 0, 0.75);
+  width: 70%;
   height: auto;
   padding: 1rem;
+  align-self: center;
+}
+
+.table {
+  width: 100%;
+}
+.table:nth-child(2) {
+  text-align: end;
 }

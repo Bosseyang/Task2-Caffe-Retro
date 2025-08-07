@@ -19,7 +19,7 @@
 .nav a {
   font-family: "Spirax", sans-serif;
   font-size: 3rem;
-  color: lightgray;
+  color: white;
 }
 .section {
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 }
 .section-title {
   font-family: "Spirax", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   color: darkred;
   text-align: center;
 }
@@ -47,7 +47,7 @@
   background-image: url("./assets/cosy.jpg");
 }
 
-section .section-container {
+section.section-container {
   display: flex;
   gap: 1rem;
   flex-direction: column;
@@ -64,7 +64,8 @@ section .section-container {
 }
 .text-box-red.text-box-red2 {
   align-self: flex-end;
-  /* position: relative; */
+  /* position: relative;
+  left: 12rem; */
 }
 
 .text-box-black {
@@ -84,4 +85,53 @@ section .section-container {
 }
 table tr td:nth-child(even) {
   text-align: end;
+}
+
+/* Responsivity */
+
+@media screen and (max-width: 450px) {
+  * {
+    font-size: 1.05rem;
+  }
+  h2 {
+    padding: 0.5rem;
+  }
+
+  .section {
+    background-position: center;
+  }
+  .section-title {
+    font-size: 3rem;
+  }
+  .nav {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+  .nav a {
+    font-size: 1rem;
+  }
+  section.section-container {
+    width: 80%;
+  }
+  .text-box-red {
+    padding: 0;
+    width: 100%;
+    align-self: center;
+  }
+
+  .text-box-red.text-box-red2 {
+    display: none;
+  }
+
+  section .text-box-black {
+    padding: 0;
+    width: 100%;
+  }
+  .table {
+    padding: 0.5rem;
+  }
+  .table tr td {
+    padding: 0;
+    font-size: 1rem;
+  }
 }

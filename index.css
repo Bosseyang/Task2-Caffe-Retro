@@ -4,6 +4,7 @@
   font-family: "Poiret One", sans-serif;
   color: lightgray;
   font-size: 1.2rem;
+  text-align: center;
 }
 .nav {
   background-color: rgb(33, 21, 26, 0.75);
@@ -56,9 +57,9 @@ section {
 .text-box-red {
   color: white;
   background-color: rgb(139, 0, 0, 0.75);
-  width: 60%;
+  width: 75%;
   height: auto;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 .text-box-red.text-box-red2 {
   align-self: flex-end;
@@ -69,13 +70,16 @@ section {
   background-color: rgb(0, 0, 0, 0.75);
   width: 70%;
   height: auto;
-  padding: 1rem;
+  padding: 1rem 3rem;
   align-self: center;
 }
 
 .table {
   width: 100%;
 }
-.table:nth-child(2) {
+.table tr td {
+  text-align: start;
+}
+table tr td:nth-child(even) {
   text-align: end;
 }

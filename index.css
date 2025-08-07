@@ -21,10 +21,12 @@
   font-size: 3rem;
   color: lightgray;
 }
-section {
+.section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 .section-title {
   font-family: "Spirax", sans-serif;
@@ -33,25 +35,24 @@ section {
   text-align: center;
 }
 
-.section {
-  display: flex;
+.hot-section {
   background-image: url("./assets/hot.jpg");
-  justify-content: center;
+  border-bottom: 1rem solid darkred;
+}
+.juicy-section {
+  background-image: url("./assets/juicy.jpg");
+  border-bottom: 1rem solid darkred;
+}
+.cosy-section {
+  background-image: url("./assets/cosy.jpg");
 }
 
-.section .section-container {
+section .section-container {
   display: flex;
   gap: 1rem;
   flex-direction: column;
   justify-content: center;
   width: 70%;
-}
-
-.juicy-section {
-  background-image: url("./assets/juicy.jpg");
-}
-.cosy-section {
-  background-image: url("./assets/cosy.jpg");
 }
 
 .text-box-red {
@@ -63,6 +64,7 @@ section {
 }
 .text-box-red.text-box-red2 {
   align-self: flex-end;
+  /* position: relative; */
 }
 
 .text-box-black {

@@ -85,7 +85,7 @@ section.section-container {
   height: auto;
   padding: 0.8rem;
 }
-.text-box.red2 {
+.text-box.bottom {
   align-self: flex-end;
 }
 
@@ -138,7 +138,7 @@ table tr td:nth-child(even) {
     width: 100%;
     align-self: center;
   }
-  .text-box.red2 {
+  .text-box.bottom {
     display: none;
   }
 
@@ -153,11 +153,9 @@ table tr td:nth-child(even) {
 
 /* responsivity for tablets */
 @media screen and (max-width: 768px) {
-  .text-box {
+  .text-box,
+  .text-box.bottom {
     align-self: center;
     width: 100%;
-  }
-  .text-box.red2 {
-    align-self: center;
   }
 }

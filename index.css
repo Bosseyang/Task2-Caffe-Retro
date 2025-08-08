@@ -73,8 +73,6 @@ section.section-container {
 }
 .text-box-red.text-box-red2 {
   align-self: flex-end;
-  /* position: relative;
-  left: 12rem; */
 }
 
 .text-box-black {
@@ -96,7 +94,7 @@ table tr td:nth-child(even) {
   text-align: end;
 }
 
-/* Responsivity */
+/* Responsivity for smartphone screens*/
 
 @media screen and (max-width: 450px) {
   * {

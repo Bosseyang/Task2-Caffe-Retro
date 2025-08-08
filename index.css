@@ -7,6 +7,9 @@
   text-align: center;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 .nav {
   background-color: rgb(33, 21, 26, 0.75);
   overflow: hidden;
@@ -36,6 +39,10 @@
   align-items: center;
 
   box-sizing: content-box;
+  border-bottom: 1rem solid darkred;
+}
+.section:last-child {
+  border-bottom: none;
 }
 img.background-image {
   object-fit: cover;
@@ -51,14 +58,14 @@ img.background-image {
   text-align: center;
 }
 
-.hot-section {
-  /* background-image: url("./assets/hot.jpg"); */
+/* .hot-section {
+  background-image: url("./assets/hot.jpg");
   border-bottom: 1rem solid darkred;
 }
 .juicy-section {
-  /* background-image: url("./assets/juicy.jpg"); */
+  background-image: url("./assets/juicy.jpg");
   border-bottom: 1rem solid darkred;
-}
+} */
 /* .cosy-section {
   background-image: url("./assets/cosy.jpg");
 } */

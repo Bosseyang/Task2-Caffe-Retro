@@ -150,3 +150,14 @@ table tr td:nth-child(even) {
     font-size: 1rem;
   }
 }
+
+/* responsivity for tablets */
+@media screen and (max-width: 768px) {
+  .text-box {
+    align-self: center;
+    width: 100%;
+  }
+  .text-box.red2 {
+    align-self: center;
+  }
+}

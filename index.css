@@ -5,17 +5,21 @@
   color: lightgray;
   font-size: 1.2rem;
   text-align: center;
+  box-sizing: border-box;
 }
 .nav {
   background-color: rgb(33, 21, 26, 0.75);
-  position: fixed;
   overflow: hidden;
-  top: 0;
   width: 100%;
+  padding: 0.7rem 0;
+
   display: flex;
   justify-content: center;
   gap: 4rem;
-  padding: 0.7rem 0;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 .nav a {
   font-family: "Spirax", sans-serif;
@@ -29,6 +33,9 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  box-sizing: content-box;
 }
 img.background-image {
   object-fit: cover;
@@ -100,7 +107,7 @@ table tr td:nth-child(even) {
   * {
     font-size: 1.05rem;
   }
-  h2 {
+  p {
     padding: 0.5rem;
   }
   .nav {

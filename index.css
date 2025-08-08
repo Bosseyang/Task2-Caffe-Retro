@@ -71,22 +71,19 @@ section.section-container {
   width: 70%;
 }
 
-.text-box-red {
+.text-box {
   color: white;
   background-color: rgb(139, 0, 0, 0.75);
   width: 75%;
   height: auto;
   padding: 0.8rem;
 }
-.text-box-red.text-box-red2 {
+.text-box.red2 {
   align-self: flex-end;
 }
 
-.text-box-black {
-  color: white;
+.text-box.black {
   background-color: rgb(0, 0, 0, 0.75);
-  width: 70%;
-  height: auto;
   padding: 1rem 3rem;
   align-self: center;
 }
@@ -124,17 +121,17 @@ table tr td:nth-child(even) {
   section.section-container {
     width: 80%;
   }
-  section .text-box-black {
+  section .text-box.black {
     padding: 0;
     width: 100%;
   }
 
-  .text-box-red {
+  .text-box.red {
     padding: 0;
     width: 100%;
     align-self: center;
   }
-  .text-box-red.text-box-red2 {
+  .text-box.red2 {
     display: none;
   }
 

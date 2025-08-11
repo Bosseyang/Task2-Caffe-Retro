@@ -1,10 +1,10 @@
 * {
   color: lightgray;
   font-family: "Poiret One", sans-serif;
-  text-decoration: none;
-  
-  margin: 0;
   font-size: 1.2rem;
+  text-decoration: none;
+
+  margin: 0;
   text-align: center;
   box-sizing: border-box;
 }
@@ -64,6 +64,7 @@ img.background-image {
   font-family: "Spirax", sans-serif;
   font-size: 4rem;
   color: darkred;
+
   text-align: center;
 }
 

@@ -122,7 +122,6 @@ table tr td:nth-child(even) {
 }
 
 /* Responsivity for smartphone screens*/
-
 @media screen and (max-width: 450px) {
   * {
     font-size: 1.05rem;
